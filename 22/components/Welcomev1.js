@@ -20,7 +20,7 @@ class Welcomev1 extends React.Component{
           Học 3000 từ vựng Tiếng Anh thông dụng nhanh hơn, hiệu quả hơn
         </Text>  
         <View style={styles.button2}>
-          <Button title="Bắt Đầu" color="#ffffff" onPress={() => navigate("Menu",{})}/>
+          <Button title="Bắt Đầu" color="#ffffff" onPress={() => navigate("Menuv1,{})}/>
         </View>
       </View>
    // </View>

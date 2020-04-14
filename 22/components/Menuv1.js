@@ -43,17 +43,17 @@ class Menuv1 extends React.Component {
         />
         <View style={styles.item}>
           <Image style={styles.icon} source={require('../assets/icon1/star.png')}/>
-          <Text style={styles.titles} onPress={() =>navigate("Practice",{})}>Học từ đã chọn</Text>
+          <Text style={styles.titles} onPress={() =>navigate("Practicev1",{})}>Học từ đã chọn</Text>
         </View>
         
          <View style={styles.item}>
           <Image style={styles.icon} source={require('../assets/icon1/list.png')}/>
-          <Text style={styles.titles} onPress={() => navigate("List",{})}>Danh sách từ</Text>
+          <Text style={styles.titles} onPress={() => navigate("Listv1",{})}>Danh sách từ</Text>
           </View>
 
          <View style={styles.item}>
           <Image style={styles.icon} source={require('../assets/icon1/add.png')}/>
-          <Text style={styles.titles} onPress={() => navigate("Add",{})}>Thêm từ</Text>
+          <Text style={styles.titles} onPress={() => navigate("Addv1",{})}>Thêm từ</Text>
         </View>
         
         <View style={styles.item}>
